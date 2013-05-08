@@ -1,0 +1,26 @@
+{
+  "name": "nightcap",
+  "version": "0.0.0",
+  "description": "Monitor your Mongo capped collections",
+  "main": "index.js",
+  "dependencies": {
+    "underscore": "~1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brainflake/nightcap.git"
+  },
+  "keywords": [
+    "mongo",
+    "capped",
+    "collection"
+  ],
+  "author": "Brian Falk",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "ecafde40f48421cb827997a416dea515484254ce"
+}
