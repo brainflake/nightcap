@@ -13,12 +13,12 @@ npm install nightcap
 var Nightcap = require('nightcap');
 
 var nc = new Nightcap(mongouri, {
-  query: { isImported: false },
+  query: { isProcessed: false },
   targetPercentage: 50,
   collection: 'messagequeue'
 });
 
 nc.on('breach', function(percentage) {
-  console.log('%s%% of your messages are not imported!', percentage);
+  console.log('%s%% of your documents are waiting to be processed!', percentage);
 });
 ```
